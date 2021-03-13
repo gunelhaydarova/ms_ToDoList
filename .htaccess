@@ -1,0 +1,5 @@
+RewriteEngine On 
+RewriteRule ^updateTask/?$ api/updateTask.php
+RewriteRule ^addTask/?$ api/addTask.php
+RewriteRule ^allTasks/?$ api/allTasks.php
+RewriteRule ^deleteTask/?$ api/deleteTask.php 
